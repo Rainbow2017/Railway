@@ -1,3 +1,42 @@
-body{
+*{
 	font-family: 'Sniglet', cursive;
+}
+/*edit menu*/
+.navbar-brand{
+	font-size: 30px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.navbar-default .navbar-nav > li{
+    background: url(../img/bg-menu-line.jpg) right center no-repeat;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 17px;
+	color: #2393c6;
+}
+.navbar-default .navbar-nav > li:hover{
+	background-color:#e7e7e7;
+}
+.navbar-right{
+	margin-right: 3px;
+}
+.navbar-nav>li>a{
+	margin-left: 5px;
+	border-bottom: 1px solid #73a0aa;
+	/*border-right: 2px solid #73a0aa;*/
+}
+.navbar-form{
+	margin-left: 14px;
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: 27px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #055f96;
+    background-color: #e7e7e7;
+    font-weight:bold;
 }
